@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import sys
 from pathlib import Path
 import csv
 import html
@@ -172,9 +173,8 @@ def row_to_html_science(row):
     return "\n".join(buffer)
 
 
-
-def convert():
-    for path in Path("out").iterdir():
+def convert(path_to_directory):
+    for path in Path(path_to_directory).iterdir():
         if path.is_file() and path.suffix == ".csv":
             print(f"[{path.name}]")
             renderer = row_to_html if path.stem != "科学技術用語辞典" else row_to_html_science
@@ -188,5 +188,10 @@ def convert():
                     html_file.write(footer())
 
 
+def main():
+    path_to_directory = sys.argv[1]
+    convert(path_to_directory)
+
+
 if __name__ == "__main__":
-    convert()
+    main()
