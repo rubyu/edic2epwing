@@ -52,7 +52,6 @@ def expand_en_optional_phrase(index_str):
 
 
 def parse_ja_phrase(index_str):
-    yield index_str
     match = re.search("［[^］]+］$", index_str)
     if match:
         phrases = expand_ja_optional_phrase(index_str[:match.start()].strip())
@@ -103,15 +102,14 @@ def header():
 """
 
 
-"""
-<lexml:key type="headword">電子出版</lexml:key>
-"""
-
-
 def footer():
     return """</body>
 </html>    
     """
+
+
+def remove_duplicate(arr):
+    return list(set(arr))
 
 
 def to_html(row):
@@ -130,11 +128,7 @@ def to_html(row):
 
         buffer.append("<dl>")
         buffer.append(f"<dt id=\"{html.escape(id_)}\">{html.escape(index)}</dt>")
-        for phrase in key_phrases:
-            buffer.append(f"<lexml:key type=\"headword\">{html.escape(phrase)}</lexml:key>")
-        for phrase in en_phrases:
-            buffer.append(f"<lexml:key type=\"headword\">{html.escape(phrase)}</lexml:key>")
-        for phrase in ja_phrases:
+        for phrase in remove_duplicate(key_phrases + en_phrases + ja_phrases):
             buffer.append(f"<lexml:key type=\"headword\">{html.escape(phrase)}</lexml:key>")
         buffer.append(f"<dd><p>{html.escape(comment)}</p></dd>")
         buffer.append("</dl>")
@@ -154,7 +148,6 @@ def convert():
                     for row in reader:
                         html_file.write(to_html(row))
                     html_file.write(footer())
-            break
 
 
 if __name__ == "__main__":

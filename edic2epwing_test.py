@@ -76,15 +76,13 @@ class TestParseMethods(unittest.TestCase):
         self.assertEqual(res[0], "あ")
 
         res = list(edic2epwing.parse_ja_phrase("あ［い］"))
-        self.assertEqual(res[0], "あ［い］")
-        self.assertEqual(res[1], "あ")
-        self.assertEqual(res[2], "い")
+        self.assertEqual(res[0], "あ")
+        self.assertEqual(res[1], "い")
 
         res = list(edic2epwing.parse_ja_phrase("あ［い｜う］"))
-        self.assertEqual(res[0], "あ［い｜う］")
-        self.assertEqual(res[1], "あ")
-        self.assertEqual(res[2], "い")
-        self.assertEqual(res[3], "う")
+        self.assertEqual(res[0], "あ")
+        self.assertEqual(res[1], "い")
+        self.assertEqual(res[2], "う")
 
     def test__expand_ja_optional_phrase(self):
         res = list(edic2epwing.expand_ja_optional_phrase("あ"))
