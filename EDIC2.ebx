@@ -4,13 +4,611 @@
     <BookInfo>
       <source>
         <SourceInfo>
+          <inFile>$(BASE)\E-DIC英和辞典.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>EDIC2英和</bookTitle>
+      <dirName>EDIC2D01</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
           <inFile>$(BASE)\E-DIC和英辞典.html</inFile>
           <title />
           <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
-      <bookTitle>E-DIC2</bookTitle>
-      <dirName>EDIC2</dirName>
+      <bookTitle>EDIC2和英</bookTitle>
+      <dirName>EDIC2D02</dirName>
+      <bookTypeID>96</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\科学技術用語辞典.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>科学技術用語辞典</bookTitle>
+      <dirName>EDIC2D03</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\アメリカ口語辞典.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>アメリカ口語辞典</bookTitle>
+      <dirName>EDIC2D04</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\英和イディオム完全対訳辞典.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>英和イディオム完全対訳辞典</bookTitle>
+      <dirName>EDIC2D05</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\動詞を使いこなすための英和活用辞典.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>動詞を使いこなすための英和活用辞典</bookTitle>
+      <dirName>EDIC2D06</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\米英俗語辞典.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>米英俗語辞典</bookTitle>
+      <dirName>EDIC2D07</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\会話作文 英語表現辞典.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>会話作文 英語表現辞典</bookTitle>
+      <dirName>EDIC2D08</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\対話例文 最新和英口語辞典.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>対話例文 最新和英口語辞典</bookTitle>
+      <dirName>EDIC2D09</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\最新日米口語辞典.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>最新日米口語辞典</bookTitle>
+      <dirName>EDIC2D10</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\新語・流行語小辞典.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>新語・流行語小辞典</bookTitle>
+      <dirName>EDIC2D11</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\ニュース英語例文集.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>ニュース英語例文集</bookTitle>
+      <dirName>EDIC2D12</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\現代用語例文集.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>現代用語例文集</bookTitle>
+      <dirName>EDIC2D13</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\海外生活英会話.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>海外生活英会話</bookTitle>
+      <dirName>EDIC2D14</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\ビジネス例文集.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>ビジネス例文集</bookTitle>
+      <dirName>EDIC2D15</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\ビジネスｅメール例文集.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>ビジネスｅメール例文集</bookTitle>
+      <dirName>EDIC2D16</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\社内ｅメール例文集.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>社内ｅメール例文集</bookTitle>
+      <dirName>EDIC2D17</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\オフィスの英語フレーズ集.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>オフィスの英語フレーズ集</bookTitle>
+      <dirName>EDIC2D18</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\経済・金融例文集.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>経済・金融例文集</bookTitle>
+      <dirName>EDIC2D19</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\科学ニュース例文集.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>科学ニュース例文集</bookTitle>
+      <dirName>EDIC2D20</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\工業英語例文集.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>工業英語例文集</bookTitle>
+      <dirName>EDIC2D21</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\技術ビジネス英語例文集.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>技術ビジネス英語例文集</bookTitle>
+      <dirName>EDIC2D22</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\特許英語例文集.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>特許英語例文集</bookTitle>
+      <dirName>EDIC2D23</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\医学英語例文集.html</inFile>
+          <title />
+          <sourceTypeID>0</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>医学英語例文集</bookTitle>
+      <dirName>EDIC2D24</dirName>
       <bookTypeID>32</bookTypeID>
       <complexDef />
       <copyright />
@@ -29,9 +627,9 @@
     </BookInfo>
   </booklist>
   <basePath>C:\Code\edic2epwing\</basePath>
-  <outputPath>C:\Code\edic2epwing\EDIC2</outputPath>
+  <outputPath>C:\Code\edic2epwing\EDIC2\</outputPath>
   <ebType>1</ebType>
-  <indexDef>15</indexDef>
+  <indexDef>3</indexDef>
   <convertOpt>
     <stopWord>a the</stopWord>
     <delBlank>true</delBlank>
