@@ -112,7 +112,11 @@ def remove_duplicate(arr):
     return list(set(arr))
 
 
-def to_html(row):
+def comment_to_html(comment):
+    return re.sub("▲▲(.+?)/(\d+)△△", "<a href=\"\\2\">\\1</a>", comment)
+
+
+def row_to_html(row):
     if len(row) < 6:
         return
     id_ = row[0]
@@ -130,7 +134,7 @@ def to_html(row):
         buffer.append(f"<dt id=\"{html.escape(id_)}\">{html.escape(index)}</dt>")
         for phrase in remove_duplicate(key_phrases + en_phrases + ja_phrases):
             buffer.append(f"<lexml:key type=\"headword\">{html.escape(phrase)}</lexml:key>")
-        buffer.append(f"<dd><p>{html.escape(comment)}</p></dd>")
+        buffer.append(f"<dd><p>{comment_to_html(html.escape(comment))}</p></dd>")
         buffer.append("</dl>")
 
     return "\n".join(buffer)
@@ -146,7 +150,7 @@ def convert():
                 with open(f"{path.stem}.html", "w", encoding="utf-8") as html_file:
                     html_file.write(header())
                     for row in reader:
-                        html_file.write(to_html(row))
+                        html_file.write(row_to_html(row))
                     html_file.write(footer())
 
 
