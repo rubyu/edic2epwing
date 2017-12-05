@@ -6,7 +6,7 @@
         <SourceInfo>
           <inFile>$(BASE)\E-DIC英和辞典.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>EDIC2英和</bookTitle>
@@ -58,7 +58,7 @@
         <SourceInfo>
           <inFile>$(BASE)\科学技術用語辞典.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>科学技術用語辞典</bookTitle>
@@ -84,7 +84,7 @@
         <SourceInfo>
           <inFile>$(BASE)\アメリカ口語辞典.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>アメリカ口語辞典</bookTitle>
@@ -110,7 +110,7 @@
         <SourceInfo>
           <inFile>$(BASE)\英和イディオム完全対訳辞典.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>英和イディオム完全対訳辞典</bookTitle>
@@ -136,7 +136,7 @@
         <SourceInfo>
           <inFile>$(BASE)\動詞を使いこなすための英和活用辞典.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>動詞を使いこなすための英和活用辞典</bookTitle>
@@ -162,7 +162,7 @@
         <SourceInfo>
           <inFile>$(BASE)\米英俗語辞典.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>米英俗語辞典</bookTitle>
@@ -188,7 +188,7 @@
         <SourceInfo>
           <inFile>$(BASE)\会話作文 英語表現辞典.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>会話作文 英語表現辞典</bookTitle>
@@ -214,7 +214,7 @@
         <SourceInfo>
           <inFile>$(BASE)\対話例文 最新和英口語辞典.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>対話例文 最新和英口語辞典</bookTitle>
@@ -240,7 +240,7 @@
         <SourceInfo>
           <inFile>$(BASE)\最新日米口語辞典.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>最新日米口語辞典</bookTitle>
@@ -266,7 +266,7 @@
         <SourceInfo>
           <inFile>$(BASE)\新語・流行語小辞典.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>新語・流行語小辞典</bookTitle>
@@ -292,7 +292,7 @@
         <SourceInfo>
           <inFile>$(BASE)\ニュース英語例文集.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>ニュース英語例文集</bookTitle>
@@ -318,7 +318,7 @@
         <SourceInfo>
           <inFile>$(BASE)\現代用語例文集.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>現代用語例文集</bookTitle>
@@ -344,7 +344,7 @@
         <SourceInfo>
           <inFile>$(BASE)\海外生活英会話.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>海外生活英会話</bookTitle>
@@ -370,7 +370,7 @@
         <SourceInfo>
           <inFile>$(BASE)\ビジネス例文集.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>ビジネス例文集</bookTitle>
@@ -396,7 +396,7 @@
         <SourceInfo>
           <inFile>$(BASE)\ビジネスｅメール例文集.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>ビジネスｅメール例文集</bookTitle>
@@ -422,7 +422,7 @@
         <SourceInfo>
           <inFile>$(BASE)\社内ｅメール例文集.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>社内ｅメール例文集</bookTitle>
@@ -448,7 +448,7 @@
         <SourceInfo>
           <inFile>$(BASE)\オフィスの英語フレーズ集.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>オフィスの英語フレーズ集</bookTitle>
@@ -474,7 +474,7 @@
         <SourceInfo>
           <inFile>$(BASE)\経済・金融例文集.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>経済・金融例文集</bookTitle>
@@ -500,7 +500,7 @@
         <SourceInfo>
           <inFile>$(BASE)\科学ニュース例文集.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>科学ニュース例文集</bookTitle>
@@ -526,7 +526,7 @@
         <SourceInfo>
           <inFile>$(BASE)\工業英語例文集.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>工業英語例文集</bookTitle>
@@ -552,7 +552,7 @@
         <SourceInfo>
           <inFile>$(BASE)\技術ビジネス英語例文集.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>技術ビジネス英語例文集</bookTitle>
@@ -578,7 +578,7 @@
         <SourceInfo>
           <inFile>$(BASE)\特許英語例文集.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>特許英語例文集</bookTitle>
@@ -604,7 +604,7 @@
         <SourceInfo>
           <inFile>$(BASE)\医学英語例文集.html</inFile>
           <title />
-          <sourceTypeID>0</sourceTypeID>
+          <sourceTypeID>7</sourceTypeID>
         </SourceInfo>
       </source>
       <bookTitle>医学英語例文集</bookTitle>

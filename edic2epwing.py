@@ -17,7 +17,7 @@ def parse_key(key_str):
     if not key_str:
         return []
     en_phrases = parse_en_phrase(key_str)
-    return list(set(en_phrases))
+    return list(en_phrases)
 
 
 def parse_index(index_str):
@@ -27,7 +27,7 @@ def parse_index(index_str):
 
     en_phrases = list_func(expand_en_optional_phrase, parse_en_phrase(en_index_str)) if en_index_str else []
     ja_phrases = parse_ja_phrase(ja_index_str) if ja_index_str else []
-    return list(set(en_phrases)), list(set(ja_phrases))
+    return list(en_phrases), list(ja_phrases)
 
 
 def parse_en_phrase(index_str):
@@ -125,43 +125,66 @@ def row_to_html(row):
     key = row[3]
     index = row[4]
     comment = row[5]
+
     buffer = []
     if index:
         key_phrases = parse_key(key)
         en_phrases, ja_phrases = parse_index(index)
 
         buffer.append("<dl>")
-        if len(index) > 128:
-            buffer.append(f"<dt id=\"{html.escape(id_)}\">{html.escape(index[:127])}…</dt>")
-            for phrase in remove_duplicate(key_phrases + en_phrases + ja_phrases):
-                buffer.append(f"<lexml:key type=\"headword\">{html.escape(phrase)}</lexml:key>")
-            buffer.append(f"<dd>"
-                          f"<p>{html.escape(index)}</p>"
-                          f"<p>{comment_to_html(html.escape(comment))}</p>"
-                          f"</dd>")
-        else:
-            buffer.append(f"<dt id=\"{html.escape(id_)}\">{html.escape(index)}</dt>")
-            for phrase in remove_duplicate(key_phrases + en_phrases + ja_phrases):
-                buffer.append(f"<lexml:key type=\"headword\">{html.escape(phrase)}</lexml:key>")
-            buffer.append(f"<dd>"
-                          f"<p>{comment_to_html(html.escape(comment))}</p>"
-                          f"</dd>")
+        buffer.append(f"<dt id=\"{html.escape(id_)}\">{html.escape(index)}</dt>")
+        for phrase in key_phrases + en_phrases + ja_phrases:
+            buffer.append(f"<lexml:key type=\"headword\">{html.escape(phrase)}</lexml:key>")
+        buffer.append(f"<dd>")
+        buffer.append(f"<p>{comment_to_html(html.escape(comment))}</p>")
+        buffer.append(f"</dd>")
         buffer.append("</dl>")
+        buffer.append("")
 
     return "\n".join(buffer)
+
+
+def row_to_html_science(row):
+    if len(row) < 6:
+        return
+    id_ = row[0]
+    subid = row[1]
+    speech = row[2]
+    key = row[3]
+    index = row[4]
+    comment = row[5]
+
+    buffer = []
+    if index:
+        key_phrases = parse_key(key)
+        en_phrases, ja_phrases = parse_index(index)
+
+        buffer.append("<dl>")
+        buffer.append(f"<dt id=\"{html.escape(id_)}\">{html.escape(en_phrases[0])}</dt>")
+        for phrase in key_phrases + en_phrases + ja_phrases:
+            buffer.append(f"<lexml:key type=\"headword\">{html.escape(phrase)}</lexml:key>")
+        buffer.append(f"<dd>")
+        buffer.append(f"<p>{html.escape(index)}</p>")
+        buffer.append(f"</dd>")
+        buffer.append("</dl>")
+        buffer.append("")
+
+    return "\n".join(buffer)
+
 
 
 def convert():
     for path in Path("out").iterdir():
         if path.is_file() and path.suffix == ".csv":
             print(f"[{path.name}]")
+            renderer = row_to_html if path.stem != "科学技術用語辞典" else row_to_html_science
             with open(path, "r", encoding="utf-8") as file:
                 reader = csv.reader(file)
                 next(reader)
                 with open(f"{path.stem}.html", "w", encoding="utf-8") as html_file:
                     html_file.write(header())
                     for row in reader:
-                        html_file.write(row_to_html(row))
+                        html_file.write(renderer(row))
                     html_file.write(footer())
 
 
