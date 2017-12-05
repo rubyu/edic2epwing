@@ -131,10 +131,21 @@ def row_to_html(row):
         en_phrases, ja_phrases = parse_index(index)
 
         buffer.append("<dl>")
-        buffer.append(f"<dt id=\"{html.escape(id_)}\">{html.escape(index)}</dt>")
-        for phrase in remove_duplicate(key_phrases + en_phrases + ja_phrases):
-            buffer.append(f"<lexml:key type=\"headword\">{html.escape(phrase)}</lexml:key>")
-        buffer.append(f"<dd><p>{comment_to_html(html.escape(comment))}</p></dd>")
+        if len(index) > 128:
+            buffer.append(f"<dt id=\"{html.escape(id_)}\">{html.escape(index[:127])}…</dt>")
+            for phrase in remove_duplicate(key_phrases + en_phrases + ja_phrases):
+                buffer.append(f"<lexml:key type=\"headword\">{html.escape(phrase)}</lexml:key>")
+            buffer.append(f"<dd>"
+                          f"<p>{html.escape(index)}</p>"
+                          f"<p>{comment_to_html(html.escape(comment))}</p>"
+                          f"</dd>")
+        else:
+            buffer.append(f"<dt id=\"{html.escape(id_)}\">{html.escape(index)}</dt>")
+            for phrase in remove_duplicate(key_phrases + en_phrases + ja_phrases):
+                buffer.append(f"<lexml:key type=\"headword\">{html.escape(phrase)}</lexml:key>")
+            buffer.append(f"<dd>"
+                          f"<p>{comment_to_html(html.escape(comment))}</p>"
+                          f"</dd>")
         buffer.append("</dl>")
 
     return "\n".join(buffer)
