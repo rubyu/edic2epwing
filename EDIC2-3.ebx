@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<BookSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <booklist>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\エンジニア例文集.html</inFile>
+          <title />
+          <sourceTypeID>7</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>エンジニア例文集</bookTitle>
+      <dirName>EDIC2D25</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+    <BookInfo>
+      <source>
+        <SourceInfo>
+          <inFile>$(BASE)\新語・流行語小辞典２.html</inFile>
+          <title />
+          <sourceTypeID>7</sourceTypeID>
+        </SourceInfo>
+      </source>
+      <bookTitle>新語・流行語小辞典２</bookTitle>
+      <dirName>EDIC2D26</dirName>
+      <bookTypeID>32</bookTypeID>
+      <complexDef />
+      <copyright />
+      <gaijiMap />
+      <gaijiFont />
+      <indexFile />
+      <g8x16>GAI16H00</g8x16>
+      <g16x16>GAI16F00</g16x16>
+      <g12x24 />
+      <g24x24 />
+      <g16x30 />
+      <g32x30 />
+      <g24x48 />
+      <g48x48 />
+      <separateMMData>false</separateMMData>
+    </BookInfo>
+  </booklist>
+  <basePath>C:\Code\edic2epwing\</basePath>
+  <outputPath>C:\Code\edic2epwing\EDIC2-3\</outputPath>
+  <ebType>1</ebType>
+  <indexDef>3</indexDef>
+  <convertOpt>
+    <stopWord>a the</stopWord>
+    <delBlank>true</delBlank>
+    <delSym>true</delSym>
+    <delChars />
+    <refAuto>false</refAuto>
+    <titleWord>true</titleWord>
+    <autoWord>false</autoWord>
+    <autoEWord>false</autoEWord>
+    <dispKeyInSelList>false</dispKeyInSelList>
+    <FRAuto>false</FRAuto>
+    <titleOrder>0</titleOrder>
+    <addKana>1</addKana>
+    <autoKana>false</autoKana>
+    <omitHeader>false</omitHeader>
+    <titleLen>128</titleLen>
+    <typeCplxKwd>0</typeCplxKwd>
+    <topMenu>false</topMenu>
+    <singleLine>false</singleLine>
+    <kanaSep1>【</kanaSep1>
+    <kanaSep2>】</kanaSep2>
+    <hyokiSep>true</hyokiSep>
+    <makeFig>true</makeFig>
+    <inlineImg>false</inlineImg>
+    <paraHdr>false</paraHdr>
+    <ruby>true</ruby>
+    <paraBr>false</paraBr>
+    <subTitle>false</subTitle>
+    <dfnStyle>0</dfnStyle>
+    <srchUnit>0</srchUnit>
+    <linkChar>0</linkChar>
+    <arrowCode>222A</arrowCode>
+    <HTagIndex>true</HTagIndex>
+    <HTagMenu>true</HTagMenu>
+    <DTTagIndex>true</DTTagIndex>
+    <leftMargin>1</leftMargin>
+    <indent>0</indent>
+    <tableWidth>480</tableWidth>
+    <kwordLen>1</kwordLen>
+    <delLeadNo>false</delLeadNo>
+    <eijiPronon>true</eijiPronon>
+    <eijiPartOfSpeech>true</eijiPartOfSpeech>
+    <eijiBreak>true</eijiBreak>
+    <eijiKana>false</eijiKana>
+    <eijiYomi>0</eijiYomi>
+    <withHeader>0</withHeader>
+    <optMono>false</optMono>
+    <pdicTitle>0</pdicTitle>
+    <pdicPronon>0</pdicPronon>
+    <pdicHonbun>0</pdicHonbun>
+    <pdicYorei>0</pdicYorei>
+    <maxStringT>256000000</maxStringT>
+  </convertOpt>
+</BookSet>
