@@ -14,4 +14,4 @@ Note2: To build ebx files, `ebstudio2` is needed.
 
 ### Requirements
 
-- Python 3.6 and later
+- Python >= 3.6
