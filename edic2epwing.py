@@ -21,6 +21,10 @@ def parse_key(key_str):
     return list(en_phrases)
 
 
+def pretty_index(index_str):
+    return re.sub("^\s*\|\s*", "", re.sub("\s*\|\s*$", "", index_str))
+
+
 def parse_index(index_str):
     first_sep = index_str.index("|")
     en_index_str = index_str[:first_sep].strip()
@@ -114,7 +118,7 @@ def remove_duplicate(arr):
 
 
 def comment_to_html(comment):
-    return re.sub("▲▲(.+?)/(\d+)△△", "<a href=\"\\2\">\\1</a>", comment)
+    return re.sub("▲▲(.+?)/(\d+)△△", "<a href=\"\\2\">\\1</a>", re.sub("&lt;CR&gt;", "<br>", comment))
 
 
 def row_to_html(row):
@@ -133,7 +137,7 @@ def row_to_html(row):
         en_phrases, ja_phrases = parse_index(index)
 
         buffer.append("<dl>")
-        buffer.append(f"<dt id=\"{html.escape(id_)}\">{html.escape(index)}</dt>")
+        buffer.append(f"<dt id=\"{html.escape(id_)}\">{html.escape(pretty_index(index))}</dt>")
         for phrase in key_phrases + en_phrases + ja_phrases:
             buffer.append(f"<lexml:key type=\"headword\">{html.escape(phrase)}</lexml:key>")
         buffer.append(f"<dd>")
